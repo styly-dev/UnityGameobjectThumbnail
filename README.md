@@ -1,0 +1,2 @@
+# UnityGameobjectThumbnail
+Unity上でPrefabやObjやfbxなどのサムネイルを取得するクラス
