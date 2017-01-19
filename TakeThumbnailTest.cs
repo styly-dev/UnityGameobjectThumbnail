@@ -12,7 +12,7 @@ public class TakeThumbnailTest : MonoBehaviour {
     {
         //サムネイル作成
         GameObject unit = Instantiate(TargetObject, Vector3.zero, Quaternion.identity) as GameObject;
-        UnityGameobjectThumbnail.makeThumbnailPng_from_Gameobject(unit, "c:/temp/temp1.png", 2300, 2300);
+        //UnityGameobjectThumbnail.makeThumbnailPng_from_Gameobject(unit, "c:/temp/temp1.png", 2300, 2300);
     }
 
 }
