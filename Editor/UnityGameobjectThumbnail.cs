@@ -124,9 +124,15 @@ public class UnityGameobjectThumbnail :MonoBehaviour{
         sc.targetTexture = null;
         RenderTexture.active = null;
         renderTexture.Release();
+#if UNITY_EDITOR
+        DestroyImmediate(unit);
+        DestroyImmediate(secondCamera);
+#else
         Destroy(unit);
-        Destroy(sc);
-        
+        Destroy(secondCamera);
+#endif
+
+
 
         return successMake;
     }
